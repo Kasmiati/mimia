@@ -1,0 +1,80 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333;
+    background-color: #f0f8ff;
+    line-height: 1.6;
+}
+
+/* Header styling */
+h1 {
+    color: #0066cc;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Wisata item container */
+.wisata-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+/* Wisata item hover effect */
+.wisata-item:hover {
+    transform: scale(1.02);
+}
+
+/* Sub-header for each wisata item */
+.wisata-item h2 {
+    margin: 0 0 10px;
+    color: #004d99;
+}
+
+/* Paragraphs within each wisata item */
+.wisata-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Unordered list for popular places */
+.wisata-item ul {
+    padding-left: 20px;
+}
+
+/* List items in the unordered list */
+.wisata-item ul li {
+    margin: 5px 0;
+    color: #333;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+    }
+
+    .wisata-item {
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .wisata-item h2 {
+        font-size: 18px;
+    }
+}
